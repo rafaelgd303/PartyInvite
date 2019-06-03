@@ -5,12 +5,18 @@
 <!Doctype html>
 <html>
 <head>
-    <title>My view</title>
+    <title>Zaproszenie na imprezę</title>
 </head>
 <body>
     <div>
         Hello world (z widoku!)<br>
         @ViewBag.Greeting - powitanie z widoku!
+
+        <p>Zapraszamy na przyjęcie.</p>
+
+        Tutaj przekierowanie do formularza:<br>
+        <a asp-action="RsvpForm">Wyślij Rsvp!</a>
+
     </div>
 </body>
 </html>

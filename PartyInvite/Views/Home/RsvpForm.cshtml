@@ -1,0 +1,26 @@
+﻿@model PartyInvite.Models.GuestResponse
+
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Rsvp Form</title>
+</head>
+<body>
+    <div>
+        To jest widok z pliku RsvpForm.html<br>
+        <a asp-action="Index">Powrót do indeksu</a>
+    </div>
+
+    <form asp-action="RsvpForm" method="post">
+        <p>test</p>
+        Imie i Nazwisko
+        Email 
+        Numer telefonu
+        Czy przyjdziesz na imprezę?
+    </form>
+</body>
+</html>
